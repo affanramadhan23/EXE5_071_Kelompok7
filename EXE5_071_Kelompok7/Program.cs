@@ -54,6 +54,21 @@ namespace EXE5_071_Kelompok7
                 Ramadhan = null;
 
         }
+        public void Display()
+        {
+            if (Affan == null)
+            {
+                Console.WriteLine("Queue is Empty or Filled !!");
+                return;
+            }
+            Node Display;
+            for (Display = Affan; Display != null; Display = Display.next) ;
+                Console.WriteLine(Display.data);
+        }
+    }
+    class program
+    {
+
     }
     internal class Program
     {
