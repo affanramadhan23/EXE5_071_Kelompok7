@@ -38,8 +38,8 @@ namespace EXE5_071_Kelompok7
             }
             else
             {
-                Affan.next = newnode;
                 Ramadhan.next = newnode;
+                Ramadhan = newnode;
             }
         }
         public void Delete()
@@ -50,9 +50,6 @@ namespace EXE5_071_Kelompok7
                 return;
             }
             Affan = Affan.next;
-            if (Affan == null)
-                Ramadhan = null;
-
         }
         public void Display()
         {
