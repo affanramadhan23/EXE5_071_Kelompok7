@@ -75,11 +75,11 @@ namespace EXE5_071_Kelompok7
                     try
                     {
                         Console.WriteLine("Menu");
-                        Console.WriteLine("1. Implement Insert Operation");
-                        Console.WriteLine("2. Implement Delete Operation");
-                        Console.WriteLine("3. Display Values");
+                        Console.WriteLine("1. Insert Operation Section");
+                        Console.WriteLine("2. Implement Delete Section");
+                        Console.WriteLine("3. Display The Data Values");
                         Console.WriteLine("4. Exit");
-                        Console.WriteLine("\nEnter Your Choice (1-4): ");
+                        Console.WriteLine("\nInsert Your Choice (1-4): ");
                         ch = Convert.ToChar(Console.ReadLine());
                         Console.WriteLine();
                         switch (ch)
